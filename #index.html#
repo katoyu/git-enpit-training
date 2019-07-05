@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+https://github.com/katoyu/git-enpit-training.git<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,6 @@
             if(isNaN(e1)){
                 return 'UnSupport'
             }
-            
             var f1 = parseFloat(e1)
             //const f1 = Math.abs(parseFloat(e1));
             const f2 = parseFloat(e2);
@@ -54,10 +53,9 @@
             }
             return value
         }
-        function disableSecond(){
-            const op = document.getElementById('operator').value;
-            // if(op === 'sqrt' || op === 'square'){
-            if(op === 'square'){
+           const op = document.getElementById('operator').value;
+            if(op === 'sqrt' || op === 'square'){
+           / if(op === 'square'){
                 document.getElementById('second').disabled = true
             }
             else{
